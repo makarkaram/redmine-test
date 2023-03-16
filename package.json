@@ -1,0 +1,19 @@
+{
+  "name": "anus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.31.2",
+    "allure-commandline": "^2.21.0",
+    "allure-playwright": "^2.1.0",
+    "experimental-allure-playwright": "^0.0.3"
+  },
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
