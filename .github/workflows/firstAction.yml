@@ -23,7 +23,7 @@ jobs:
       run: npx playwright install --with-deps
     
     - name: Run Playwright tests
-      run: npx playwright test
+      run: npm run test:run
     
     - name: Install allure
       run: npm install -g allure-commandline --save-dev
@@ -52,6 +52,6 @@ jobs:
       if: always()
       uses: peaceiris/actions-gh-pages@v2
       env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PERSONAL_TOKEN: ${{ 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 }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
