@@ -53,7 +53,7 @@ test.describe('singUp radmin test', () => {
   await expect(downloadPage.downloadLinkSec()).toBeVisible();
   await expect(downloadPage.downloadLinkThird()).toBeVisible();
   })
-  test.only('admin Gavatare is visible', async ({ page }) => {
+  test('admin Gavatare is visible', async ({ page }) => {
     await projectPage.projectButton().click()
     await projectPage.redminButton().click()
     await projectPage.adminButton().click()
