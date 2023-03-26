@@ -1,9 +1,13 @@
 {
-  "name": "anus",
+  "name": "playwright",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:run": "playwright test --headed",
+    "test:report": "npx allure serve allure-results",
+    "test:generate": "npx allure generate allure-results --clean"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
