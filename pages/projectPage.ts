@@ -8,7 +8,7 @@ export class ProjectPage{
         this.projectBtn = page.locator('[href="/projects"]')
         this.redminBtn = page.locator('[href="/projects/redmine"]')
         this.adminBtn = page.locator('[href="/users/1"]')
-        this.imgGravatar = page.locator('[class="gravatar"]')
+        this.imgGravatar = page.locator('[href="/activity?from=2023-03-24&user_id=1"]')
     }
     projectButton() {
     return this.projectBtn
